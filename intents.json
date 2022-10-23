@@ -1,0 +1,73 @@
+{"intents": [ {"tag":"",
+   "patterns": ["", ""],
+   "responses": ["", "", ""]
+   },
+  {"tag": "add_agenda",
+  "patterns": ["anote na agenda", "anote"],
+  "responses": [""]
+  },
+  {"tag": "translator",
+   "patterns": ["traduza", "traduz", "traduzir"],
+   "responses": [""]
+  },
+  {"tag": "addcontact",
+   "patterns": ["adicione contato", "adicionar contato"],
+   "responses": [""]
+  },
+  {"tag": "messageto",
+   "patterns": ["envie mensagem", "enviar mensagem"],
+   "responses": [""]
+  },
+  {"tag": "turnoffsys",
+   "patterns": ["desligar"],
+   "responses": [""]
+  },
+  {"tag": "read_agenda",
+   "patterns": ["leia agenda", "agenda para hoje", "agenda"],
+   "responses": [""]
+  },
+  {"tag": "finish",
+   "patterns": ["fechar", "encerrar", "sair"],
+   "responses": [""]
+  },
+  {"tag": "identify",
+   "patterns": ["oi", "olá", "olá"],
+   "responses": [""]
+  },
+  {"tag": "playmusic",
+   "patterns": ["toque uma música", "ouvir música", "pode tocar uma musica?"],
+   "responses": [" "]
+  },
+  {"tag": "finditem",
+   "patterns": ["pesquisa pra mim", "procure no google", "pesquise no google", "procure no gugol", "procura na internet", "pesquise"],
+   "responses": [""]
+  },
+  {"tag": "getdate",
+   "patterns": ["que dia hoje"],
+   "responses": [""]
+  },
+  {"tag": "fasong",
+   "patterns": ["minha musica preferida"],
+   "responses": [""]
+  },
+  {"tag": "gethour",
+   "patterns": ["que horas sao"],
+   "responses": [""]
+  },
+  {"tag": "readnews",
+   "patterns": ["notícias", "leia notícias", "manchetes", "jornais"],
+   "responses": [""]
+  },
+  {"tag": "gestr",
+   "patterns": ["controle gestos", "controle por gesto"],
+   "responses": [""]
+  },
+  {"tag": "stpgstr",
+   "patterns": ["parar gesto", "parar controle", "parar gestual"],
+   "responses": [""]
+  },
+  {"tag": "nameint",
+   "patterns": ["me chamo", "meu nome", "eu sou"],
+   "responses": [""]
+  }
+ ]}
