@@ -1,4 +1,4 @@
-import keyboar, time
+import keyboad as key, time
 from selenium                               import webdriver
 from webdriver_manager.chrome               import ChromeDriverManager
 from selenium.webdriver.chrome.service      import Service
@@ -12,8 +12,5 @@ driver = webdriver.Chrome(chrome_options=chrome_options)
 driver.get("https://web.whatsapp.com/")
 time.sleep(40)
 key.press_and_release('enter')
-key.press_and_release('alt,space')
-key.press_and_release('n')
+key.press_and_release('alt,f4')
 import cmll
-
-
